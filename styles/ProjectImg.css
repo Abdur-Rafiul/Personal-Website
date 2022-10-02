@@ -1,0 +1,36 @@
+.ProjectImg{
+    width: 100%!important;
+    height: 700px!important;
+    border: 2px saddlebrown solid;
+
+}
+
+.project{
+    background-image: linear-gradient(to bottom, #fffaf9 0%, #fff8fa 100%);
+
+    min-height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px!important;
+    box-sizing: border-box!important;
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+
+    .ProjectImg{
+        width: 100%!important;
+        height: 500px!important;
+        border: 3px saddlebrown solid;
+        text-align: justify!important;
+    }
+
+}

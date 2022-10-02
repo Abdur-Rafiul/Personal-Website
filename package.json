@@ -1,0 +1,49 @@
+{
+  "name": "portflio-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "framer-motion": "^7.3.5",
+    "lottie-react": "^2.3.1",
+    "next": "12.2.5",
+    "react-move": "5.2.1",
+    "d3-ease": "1.0.5",
+    "lodash": "4.17.11",
+    "nextjs-progressbar": "^0.0.14",
+    "react": "^18.1.0",
+    "react-animated-progress-bar": "^1.1.1",
+    "react-bootstrap": "^2.5.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-countup": "^6.3.1",
+    "react-data-table-component": "^7.5.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-player": "^2.10.1",
+    "react-router-dom": "^6.4.1",
+    "react-scroll-to-top": "^3.0.0",
+    "react-slick": "^0.29.0",
+    "react-visibility-sensor": "^5.1.1",
+    "recharts": "2.1.12",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "typewriter-effect": "^2.19.0",
+    "video-react": "^0.15.0"
+    
+  },
+  "overrides": {
+    "react": "^18.1.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  }
+}

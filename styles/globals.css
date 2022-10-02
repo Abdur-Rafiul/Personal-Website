@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('Menu.css');
+@import url('singleSlider.css');
+@import url('fontawesome.css');
+@import url('studu.css');
+@import url('mySkill.css');
+@import url('summary.css');
+@import url('clientReview.css');
+@import url('Footer.css');
+@import url('TopPage.css');
+@import url('About.css');
+@import url('Services.css');
+@import url('ProjectImg.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+body {
+    box-sizing: border-box;
+    background-color:  #fff0f0!important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
