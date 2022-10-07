@@ -19,13 +19,13 @@ class Services extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="text-justify service">
+                <Container fluid={true} className="text-center service">
                     <Container>
 
                     <Row>
 
                         <Col lg={4} md={6} sm={12}>
-                            <div className="serviceCard text-justify" data-aos="flip-right">
+                            <div className="serviceCard text-center" data-aos="flip-right">
                                 <img className="serviceImg" src="/Photo/mobile.jpg"/>
                                 <h2 className="ServiceName">Web Development</h2>
                                 <p className="ServiceDescription">
@@ -35,7 +35,7 @@ class Services extends Component {
                         </Col>
 
                         <Col lg={4} md={6} sm={12}>
-                            <div className="serviceCard text-justify" data-aos="flip-up">
+                            <div className="serviceCard text-center" data-aos="flip-up">
                                 <img className="serviceImg" src="/Photo/mo.jpg"/>
                                 <h2 className="ServiceName">Mobile Development</h2>
                                 <p className="ServiceDescription">
@@ -45,7 +45,7 @@ class Services extends Component {
                         </Col>
 
                         <Col lg={4} md={6} sm={12}>
-                            <div className="serviceCard text-justify" data-aos="flip-left">
+                            <div className="serviceCard text-center" data-aos="flip-left">
                                 <img className="serviceImg" src="/Photo/design.jpg"/>
                                 <h2 className="ServiceName">Graphic Design</h2>
                                 <p className="ServiceDescription">
