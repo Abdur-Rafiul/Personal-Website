@@ -24,21 +24,21 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
 
     .AboutName{
 
         font-weight: 600;
         color: #C23272;
         font-size: 30px;
-        text-align: center;
+        text-align: center!important;
     }
 
     .AboutDescription{
         font-family: "Roboto Condensed";
         font-weight: 600;
         font-size: 20px;
-        text-align: left;
+        text-align: center!important;
     }
 
     .About{
@@ -46,7 +46,7 @@
         width: 100%!important;
         min-height: 500px;
 
-        text-align: justify;
+        text-align: center!important;
         padding: 1px!important;
     }
 }

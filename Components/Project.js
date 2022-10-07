@@ -20,7 +20,7 @@ class Project extends Component {
         return (
             <Fragment>
                 <Container fluid={true} >
-                    <Container className="project">
+                    <Container className="project mb-5">
                    
 
                         <Row>
