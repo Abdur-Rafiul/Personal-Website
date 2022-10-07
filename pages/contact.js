@@ -6,6 +6,9 @@ import Footer from "../Components/Footer";
 import Contact1 from "../Components/Contact";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 class Contact extends Component {
+    componentDidMount() {
+        window.scroll(0,0);
+    }
     render() {
         return (
             <Fragment>

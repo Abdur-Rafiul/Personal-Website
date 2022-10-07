@@ -2,7 +2,9 @@
     font-size: 25px!important;
     text-align: justify;
     font-family: "Roboto Condensed";
-    margin-right: 25px!important;
+    margin-right: 0!important;
+    position: relative;
+    right: 20px!important;
 }
 
 
@@ -13,7 +15,11 @@
     .skillDescription {
         font-size: 20px !important;
         padding: 0 !important;
-        margin-right: 30px;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        text-align: center!important;
+        position: relative;
+        right: 20px!important;
 
     }
     .progressText{

@@ -5,6 +5,9 @@ import TopPage from "../Components/TopPage";
 import About1 from "../Components/About";
 import Footer from "../Components/Footer";
 class Project extends Component {
+    componentDidMount() {
+        window.scroll(0,0);
+    }
     render() {
         return (
             <Fragment>
