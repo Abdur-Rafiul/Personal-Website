@@ -4,7 +4,14 @@
     color: #C23272!important;
     font-family: "Roboto Condensed";
     font-weight: 700;
-    font-size: 45px!important;
+    font-size: 65px!important;
+}
+.navBar1Scroll{
+
+    color: #ffffff!important;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 65px!important;
 }
 .navBarWithOutScroll{
     background-color: #f8f9fa!important;
@@ -13,7 +20,7 @@
 
 }
 .navBarScroll{
-    background-color: #f3f2f0!important;
+    background-color: #161512!important;
     /*background:linear-gradient(90deg,#7530a6,#333295);;*/
     color:#e3e4e8!important;
     font-family: "Roboto Condensed";
@@ -25,6 +32,14 @@
 .link1{
 
     color: #C23272!important;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 35px!important;
+    margin-left: 3px!important;
+}
+.link1Scrollbar{
+
+    color: #ffffff!important;
     font-family: "Roboto Condensed";
     font-weight: 700;
     font-size: 35px!important;

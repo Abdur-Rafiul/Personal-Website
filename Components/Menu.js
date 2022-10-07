@@ -9,15 +9,16 @@ class Menu extends Component {
     constructor() {
         super();
         this.state = {
-            navBarStyle: "navBarWithOutScroll"
+            navBarStyle: "navBarWithOutScroll",
+            link1:"link1"
         }
     }
 
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarStyle:'navBarScroll'})
+            this.setState({navBarStyle:'navBarScroll',link1:'link1Scrollbar'})
         }else if(window.scrollY<100){
-            this.setState({navBarStyle:'navBarWithOutScroll'})
+            this.setState({navBarStyle:'navBarWithOutScroll',link1:'link1'})
 
         }
     }
@@ -33,11 +34,15 @@ class Menu extends Component {
                     <Container fluid>
                         <h2>
 
-                            <Nav.Link className="navBar">
+                            <Nav.Link className="">
                                 <Link href="/">
-                                    <div className="nav-item-div">
+                                <div className="nav-item-div">
+                                    <div className={this.state.link1}>
+                                    
                                         Rafiul Islam
                                     </div>
+                                    </div>
+                                   
                                 </Link>
 
                             </Nav.Link>
@@ -60,7 +65,7 @@ class Menu extends Component {
                             <Nav
 
                             >
-                            <Nav.Link className="link1">
+                            <Nav.Link className={this.state.link1}>
                                 <Link href="/">
                                     <div className="nav-item-div">
                                         Home
@@ -70,7 +75,7 @@ class Menu extends Component {
                             </Nav.Link>
 
 
-                                <Nav.Link className="link1">
+                                <Nav.Link className={this.state.link1}>
                                     <Link href="/about">
                                         <div className="nav-item-div">
                                             About Me
@@ -79,7 +84,7 @@ class Menu extends Component {
 
                                 </Nav.Link>
 
-                                <Nav.Link className="link1">
+                                <Nav.Link className={this.state.link1}>
                                     <Link href="/service">
                                         <div className="nav-item-div">
                                            Services
@@ -88,7 +93,7 @@ class Menu extends Component {
 
                                 </Nav.Link>
 
-                                <Nav.Link className="link1">
+                                <Nav.Link className={this.state.link1}>
                                     <Link href="/project">
                                         <div className="nav-item-div">
                                             Projects
@@ -97,7 +102,7 @@ class Menu extends Component {
 
                                 </Nav.Link>
 
-                                <Nav.Link className="link1 me-2">
+                                <Nav.Link className={this.state.link1}>
                                     <Link href="/contact">
                                         <div className="nav-item-div">
                                             Contact Me
