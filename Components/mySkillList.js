@@ -155,21 +155,18 @@ class MySkillList extends Component {
     
             </Col>
             <Col sm={12} md={12} lg={6}>
-
-
-
-
-                <div className="fgh">
-
-
-                    <iframe src=
-                                "https://drive.google.com/file/d/1Kc6xlOTVHaLmKhT3yX1HOcGU2-ukx6FY/preview"
-                            width="100%"
-                            height="650">
-                    </iframe>
-                </div>
-
-
+              <p className="skillDescription ms-5 mt-5 ">
+                I can create any website and develop the website according to
+                the client's requirements. I am a laravel developer. I am
+                frontend and I have good skills. I am working on some project
+                Management System, Ecommerce site. I can build websites using
+                React js and NextJs
+              </p>
+              {/*  <iframe src=*/}
+              {/*              "https://drive.google.com/file/d/1Kc6xlOTVHaLmKhT3yX1HOcGU2-ukx6FY/preview"*/}
+              {/*          width="100%"*/}
+              {/*          height="650">*/}
+              {/*  </iframe>*/}
             </Col>
           </Row>
          
