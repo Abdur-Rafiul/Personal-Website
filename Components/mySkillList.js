@@ -160,8 +160,13 @@ class MySkillList extends Component {
 
 
                 <div className="fgh">
-                    <embed id="fgh" src="https://drive.google.com/file/d/1Kc6xlOTVHaLmKhT3yX1HOcGU2-ukx6FY/preview" type="application/pdf"
-                           width="100%" height="700"/>
+
+
+                    <iframe src=
+                                "https://drive.google.com/file/d/1Kc6xlOTVHaLmKhT3yX1HOcGU2-ukx6FY/preview"
+                            width="100%"
+                            height="650">
+                    </iframe>
                 </div>
 
 
