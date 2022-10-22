@@ -27,4 +27,16 @@
     font-size: 10px!important;
     
     }
+
+    .PDF{
+        height: 500px!important;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .PDF{
+        height: 400px!important;
+    }
+
 }
