@@ -18,7 +18,7 @@ class Menu extends Component {
 
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarStyle:'navBarScroll',link1:'link1',bg:'dark',LogoName:"Robin Khan"})
+            this.setState({navBarStyle:'navBarScroll',link1:'link1',bg:'light',LogoName:"Robin Khan"})
         }else if(window.scrollY<100){
             this.setState({navBarStyle:'navBarWithOutScroll',link1:'link1',bg:'light',LogoName:"Rafiul Islam"})
 
