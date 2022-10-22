@@ -27,7 +27,7 @@ class Contact extends Component {
                   loop={true}
                 />
               </Col>
-              <Col  lg={6} md={12} sm={12}>
+              <Col className="text-start"  lg={6} md={12} sm={12}>
                 <h1 className="ServiceName">Quick Connect</h1>
 
                 <Form>

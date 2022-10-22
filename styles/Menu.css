@@ -12,7 +12,9 @@
     font-family: "Roboto Condensed";
     font-weight: 700;
     font-size: 65px!important;
+
 }
+
 .navBarWithOutScroll{
     background-color: #f8f9fa!important;
     color: #C23272!important;
@@ -20,8 +22,8 @@
 
 }
 .navBarScroll{
-    background-color: #161512!important;
-    /*background:linear-gradient(90deg,#7530a6,#333295);;*/
+
+    background:linear-gradient(90deg, #f8e5dd, #fff2f4);
     color:#e3e4e8!important;
     font-family: "Roboto Condensed";
 
@@ -36,14 +38,16 @@
     font-weight: 700;
     font-size: 35px!important;
     margin-left: 3px!important;
+
 }
 .link1Scrollbar{
 
-    color: #ffffff!important;
+    color: #C23272!important;
     font-family: "Roboto Condensed";
     font-weight: 700;
     font-size: 35px!important;
     margin-left: 3px!important;
+    background-color: white!important;
 }
 
 /*320px—480px: Mobile devices*/

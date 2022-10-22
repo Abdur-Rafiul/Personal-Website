@@ -10,15 +10,17 @@ class Menu extends Component {
         super();
         this.state = {
             navBarStyle: "navBarWithOutScroll",
-            link1:"link1"
+            link1:"link1",
+            bg:"light",
+            LogoName:"Rafiul Islam"
         }
     }
 
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarStyle:'navBarScroll',link1:'link1Scrollbar'})
+            this.setState({navBarStyle:'navBarScroll',link1:'link1',bg:'dark',LogoName:"Robin Khan"})
         }else if(window.scrollY<100){
-            this.setState({navBarStyle:'navBarWithOutScroll',link1:'link1'})
+            this.setState({navBarStyle:'navBarWithOutScroll',link1:'link1',bg:'light',LogoName:"Rafiul Islam"})
 
         }
     }
@@ -30,16 +32,16 @@ class Menu extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.navBarStyle} fixed={"top"} variant="light"   expand="lg">
+                <Navbar className={this.state.navBarStyle} fixed={"top"} variant={this.state.bg}   expand="lg">
                     <Container fluid>
                         <h2>
 
                             <Nav.Link className="">
                                 <Link href="/">
-                                <div className="nav-item-div">
-                                    <div className={this.state.link1}>
-                                    
-                                        Rafiul Islam
+                                <div className="">
+                                    <div className="text-danger">
+
+                                        {this.state.LogoName}
                                     </div>
                                     </div>
                                    
