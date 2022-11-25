@@ -114,7 +114,7 @@ class SingleSlider extends Component {
             <Col sm={12} xs={12} md={12} lg={6}>
               <img
                 className="img-slider shadow-5-strong"
-                src="/Photo/robin.png"
+                src="/Photo/robin.jpg"
                 alt="Picture of the author"
               />
             </Col>
