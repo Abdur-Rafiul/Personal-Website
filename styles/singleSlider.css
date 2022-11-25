@@ -10,8 +10,8 @@
 
 }
 .img-slider{
-    width: 600px!important;
-    height: 700px!important;
+    width: 100%!important;
+    
     border-radius: 5%!important;
     border: 7px solid rgb(0, 102, 255);
     margin-top: 35px!important;
