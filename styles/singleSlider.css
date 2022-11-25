@@ -1,6 +1,6 @@
 .singleSlider{
     background-image: linear-gradient(to bottom, #fffaf9 0%, #d045be 100%);
-    height: 90%;
+    height: 90%!important;
     margin-top: 4.5rem;
 
 }
@@ -14,7 +14,7 @@
     
     border-radius: 5%!important;
     border: 7px solid rgb(0, 102, 255);
-    margin-top: 35px!important;
+    margin-top: 20%!important;
    
 
 }
@@ -107,6 +107,7 @@
         display: block!important;
         margin-left: auto!important;
         margin-right: auto!important;
+        margin-top: -30%!important;
 
     }
     .progress-style{
@@ -182,8 +183,7 @@
     }
     .img-slider{
         width: 100%!important;
-        height: 300px!important;
-        margin-top: -100px!important;
+        margin-top: -30%!important;
 
     }
     .playBtnHeading{
