@@ -6,7 +6,7 @@ import MyStudyMobile from "../Components/myStudyMobile";
 import MySkillList from "../Components/mySkillList";
 import Summary from "../Components/Summary";
 import ClientReview from "../Components/clientReview";
-import Footer from "../Components/Footer";
+import FooterSet from "../Components/footerSet";
 import Project from "../Components/homePageProject";
 import { Container } from "react-bootstrap";
 
@@ -34,7 +34,7 @@ class Index extends Component {
         <Summary />
         <ClientReview />
 
-        <Footer />
+        <FooterSet />
 
       </div>
     );

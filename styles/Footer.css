@@ -50,3 +50,21 @@
     color: #222222;
 
 }
+.footerSet2{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .footerSet1{
+
+        display: none!important;
+
+
+    }
+    .footerSet2{
+
+
+     display: inline;
+
+    }
+}
